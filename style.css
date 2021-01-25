@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: #E87B38;
+background: -webkit-linear-gradient(top left, #E87B38, #DBA05F);
+background: -moz-linear-gradient(top left, #E87B38, #DBA05F);
+background: linear-gradient(to bottom right, #E87B38, #DBA05F);
+}
+
+
+
+
+.container {
+    height:500px;
+    width:100%;
+    margin-top:120px;
+    border-radius:80px;
+    padding:10px;
+    display:grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns:repeat(5, 1fr); 
+    justify-items: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.choosebox{
+    text-align: center;
+    grid-row: 1;
+    grid-column:1;
+    text-decoration: underline;
+    text-decoration-color: #E48643;
+    text-decoration-thickness: 10px;
+    border-radius:20px;
+    width:120px;
+    height:50px;
+    vertical-align:middle ;
+}
+
+.vsbox {
+    text-align: center;
+    grid-row:1;
+    grid-column: 3;
+    text-decoration: underline;
+    text-decoration-color: #E48643;
+    text-decoration-thickness: 10px;
+}
+
+.computerbox {
+    text-align: center;
+    grid-row: 1;
+    grid-column:5 ;
+    text-decoration: underline;
+    text-decoration-color: #E48643;
+    text-decoration-thickness: 10px;
+}
+
+.player-container {
+    grid-row: 2;
+    
+}
+
+.player-buttons {
+    grid-row: 2;
+    grid-column: 1;
+    padding:40px;
+    width:300px;
+  
+}
+
+.playerscorebox {
+    width:50px;
+    height:50px;
+    border:solid black 1px;
+    grid-row: 4;
+    grid-column: 2;
+    justify-items: center;
+    font-size:30px;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.playerlabel {
+    margin-top:100px;
+    grid-row:3;
+    grid-column: 2;
+}
+
+.score-box{
+    width:200px;
+    height:200px;
+    border:solid 1px gray;
+    border-radius:30px;
+    margin-right:14%;
+    grid-row: 2;
+    grid-column: 3;
+    margin-left: 15%;
+    text-align:center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+    padding:10px;
+}
+
+
+.question-mark {
+    height:200px;
+    width:200px;
+    margin-right:130px;
+    
+   
+}
+
+.computerOutputBox {
+    grid-row: 2;
+    grid-column: 5;
+    height:200px;
+    width:200px;
+    border:black solid 2px;
+    border-radius:10px;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.computerlabel{
+    grid-row: 3;
+    grid-column: 4;
+    margin-top:100px;
+}
+
+.computerscorebox {
+    width:50px;
+    height:50px;
+    border:solid black 1px;
+    grid-row: 4;
+    grid-column: 4;
+    justify-items: center;
+    font-size:30px;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
