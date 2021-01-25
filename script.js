@@ -7,6 +7,7 @@ const questionMark = document.querySelector('.question-mark')
 const compSelect = document.querySelector ('.computerOutputBox');
 const playerScoreBox = document.querySelector('.playerscorebox');
 const computerScoreBox = document.querySelector('.computerscorebox');
+let playAgainBtn = document.querySelector('.playbutton');
 
 
 
@@ -303,9 +304,13 @@ function game(){
         rockBtn.disabled = true;
         paperBtn.disabled = true;
         scissorBtn.disabled = true;
+        playAgainBtn.style.display ='block'
     }
 }
 
+playAgainBtn.addEventListener('click', function(e){
+  location.reload()
+})
 
 
 
