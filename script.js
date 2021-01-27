@@ -102,6 +102,8 @@ rockBtn.addEventListener('click', function(e){
 
 
     } else {
+      computerScoreBox.style.borderColor = 'green';
+      computerScoreBox.style.color='green';
       round += 1;
       computerScore+=1;
       choices.push(1);
