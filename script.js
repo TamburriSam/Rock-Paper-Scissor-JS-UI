@@ -27,13 +27,13 @@ function computerPlay(){
     let x = Math.floor(Math.random() *3+1);
     switch (x) {
     case 1:
-    x = 'Rock';
+    x = 'rock';
     break;
     case 2:
-    x = 'Paper';
+    x = 'paper';
     break;
     case 3:
-    x = 'Scissor';
+    x = 'scissor';
     break;
     }
     return x
